@@ -48,23 +48,10 @@ main {
     grid-row: 2;
 }
 
-main ul {
-    padding: 0 0 0 1rem;
-    list-style: none;
-}
-
-main .about {
-    display: grid;
-    grid-template: auto auto / auto;
-    padding: 3rem 2rem 0 2rem;
-}
-
-main .about article {
-    grid-column: 2;
-}
-
-main .about picture {
-    display: none;
+.index-main, .felix-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
